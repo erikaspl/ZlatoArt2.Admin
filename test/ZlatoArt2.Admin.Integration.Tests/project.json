@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0-*",
+  "description": "ZlatoArt2.Admin.Integration.Tests Console Application",
+  "authors": [ "erikos" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.AspNet.TestHost": "1.0.0-rc1-final",
+    "mongocsharpdriver": "2.2.4",
+    "NUnit": "3.2.1",
+    "NUnitLite": "3.2.1",
+    "System.Net.Http": "4.0.0",
+    "System.Net.Http.Formatting.Extension": "5.2.3",
+    "ZlatoArt2.Admin.Db": "1.0.0-*",
+    "ZlatoArt2.Admin.Model": "1.0.0-*",
+    "ZlatoArt2.Admin.Web": "1.0.0-*"
+  },
+
+  "commands": {
+    "test": "ZlatoArt2.Admin.Integration.Tests"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Console": "4.0.0-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
